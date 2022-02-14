@@ -1,0 +1,468 @@
+header{
+  background-color: #000;
+  color: #fff;
+  padding: 0px 20px;
+  height: 38px;
+  line-height: 38px;
+}
+
+ul{
+  list-style: none;
+}
+.icons ul{
+  margin-top: -18px;
+}
+.icons ul li{
+  float: left;
+  margin-left: 15px;
+}
+.get{
+  background-color: #069;
+    padding: 0px 20px;
+    height: 40px;
+}
+.get:hover{
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #fff; 
+}
+.mail{
+  margin-top: 11px;
+}
+.mail i{
+  font-size: 50px;
+  float: left;
+  color: #29abe2;
+  padding-top:  15px;
+}
+.mail span{
+  font-size: 16px;
+  color: #29abe2;
+}
+.contact{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-left: 65px;
+}
+.right{
+  text-align: right;
+}
+.logo{
+  padding: 20px;
+
+}
+
+.slide{
+  background-image: url(../images/slide.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  position: relative;
+}
+.slide .bgslide{
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background-color: rgba(0,0,0,.7);
+}
+.slidetext{
+  position: absolute;
+  color: #fff;
+  padding-top: 150px;
+}
+.slidetext span{
+  color: #29abe2;
+
+}
+
+.bt{
+  border-radius: 50px;
+  padding: 8px 30px;
+}
+.bt{
+  background-color: #fff;
+  color: #000;
+}
+.btt{
+  background-color: #fff;
+  color: #000;
+   border-radius: 50px;
+  padding: 8px 30px;
+}
+.btt:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.line{
+  width: 250px;
+  height: 15px;
+  border-radius: 50px;
+  margin-bottom: -6px;
+  background-color: #29abe2;
+  display: inline-block;
+  z-index: 555555;
+  position: absolute;
+  bottom: 0;
+}
+.iconandtext i{
+  font-size: 50px;
+  padding: 12px;
+}
+.weare {
+    position: relative;
+    margin-left: -32px;
+}
+.weare span{
+  width: 250px;
+  height: 5px;
+  border-radius: 50px;
+  margin-bottom: -16px;
+  background-color: #29abe2;
+  display: inline-block;
+position: absolute;
+left: 0;
+  bottom: 0; 
+}
+
+.weare .seoline {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-bottom: -6px;
+    background-color: #000;
+    display: inline-block;
+   
+    bottom: -17px;
+    margin-left: 10px;
+}
+
+.toppp{
+  z-index: 4444;
+  position: absolute;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/logo.png);
+    z-index: 5555555;
+    position: absolute;
+    color: red;width: 120px;
+    margin-left: 1210px;
+}
+
+
+
+
+.sliderimg .lineblue{
+  position: absolute;
+  bottom: 0;
+}
+.sliderimg:hover .lineblue{
+  transition: all .9s;
+  background-color: #069;
+}
+
+.textgif{
+  background-color: #069;
+  padding: 86px 30px;
+  text-align: justify;
+  color: #fff;
+}
+.round{
+  border-radius: 50px;
+  padding: 8px 35px;
+  background-color: white;
+  color: #000;
+}
+
+.twobt{
+  background-color: #000;
+  border: none;
+  color: white;
+}
+
+.lineblue{
+  width: 250px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #29abe2;
+  display: inline-block;
+  margin-bottom: -7px;
+}
+
+.imgandtext{
+  background-color: #069;
+    color: #fff;
+    padding: 170px 30px; 
+    margin-top: 50px;
+}
+.headingtwoo{
+  text-align: center;
+  text-transform: uppercase; 
+    position: relative;
+margin: 50px;
+
+
+}
+.headingtwoo .lineonee {
+    background-color: #069;
+    display: inline-block;
+    width: 250px;
+    height: 4px;
+    border-radius: 50px;
+    margin-left: -114px;
+}
+.linetwo {
+    background-color: #069;
+    display: inline-block;
+    width: 28px;
+    height: 17px;
+    border-radius: 50px;
+    margin-left: -135px;
+    margin-bottom: -5px;
+    }
+
+.imgandtexts {
+    position: relative;
+}
+
+.imgandtexts:hover{
+      box-shadow: 0px 0px 4px 5px #262626;
+      border-radius: 15px;
+
+}
+
+
+.imgandtexts img{
+  border-radius: 15px;
+}
+.imgandtexts span{
+  background-color: rgba(0,0,0,.4);
+  left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: inline-block;
+    position: absolute;
+      border-radius: 15px;
+
+
+}
+
+.imgandtexts:hover span{
+    background-color: rgba(0,0,0,.7);
+    transition: all .9s;
+
+
+}
+   .texttss {
+    background-color: #069;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 50px;
+    height: 150px;
+    margin-top: 152px;
+    padding: 20px;
+    color: #fff;
+      border-radius: 15px;
+
+}
+
+.texttss i{
+  font-size: 53px;
+  float: left;
+  padding: 29px;
+}
+
+.iconslist i{
+  font-size: 75px;
+
+}
+.bglight{
+  background-color: rgba(0,102,153,.1);
+  padding-bottom: 50px;
+  padding: 100px;
+}
+.footerimg {
+  position: relative;
+}
+.footerimg .span1{
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+}
+.address{
+  color: #fff;
+}
+.address i{
+  font-size: 20px;
+}
+.span1{
+  color: #fff;
+  padding: 15px 30px; 
+}
+form input[type="fullname"], input[type="age"], select{
+  color: #fff;
+  width: 500px;
+  padding: 8px 30px;
+  margin-bottom: 10px;
+  outline: none;
+}
+form textarea{
+    outline: none;
+  padding: 8px 30px;
+width: 500px;
+height: 215px;
+}
+form input[type="submit"], input[type="reset"]{
+color: #fff;
+  width: 250px;
+  padding: 8px 30px;
+  margin-bottom: 10px;
+  outline: none;
+    background-color: #069;
+
+}
+form select{
+  color: #000;
+}
+
+::-webkit-input-placeholder { 
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  color: #000;
+}
+
+::placeholder {
+  color: #000;
+}
+.footerbgblack{
+  background-color: #000;
+  padding: 80px 20px 5px 20px;
+  color: #fff;
+}
+.footertext i{
+  color: skyblue;
+}
+.footericons ul{
+  margin-left: -17px;
+}
+.footericons ul li{
+  float: left;
+  margin-right: 20px;
+  background-color:#00AAFF;
+  border-radius: 8px;
+  padding: 10px 12px; 
+}
+.footericons ul li:nth-child(1):hover{
+  background-color: #4267B2;
+}
+.footericons ul li:nth-child(2):hover{
+  background-color: #25D366;
+}
+.footericons ul li:nth-child(3):hover{
+  background-color: #0e76a8;
+}
+.footericons ul li:nth-child(4):hover{
+  background-color: #8a3ab9;
+}
+.footericons ul li:nth-child(5):hover{
+  background-color: #FF3612;
+}
+.footertextone a{
+  color: #fff;
+  text-decoration: none; 
+}
+
+.marginleftc{
+  margin-left: 50px;
+}
+
+
+@media screen and (max-width: 820px){
+ .form{
+  margin-left: 90px;
+  margin-top: 50px;
+} 
+.get {
+    background-color: #069;
+    padding: 0px 20px;
+    height: 40px;
+    margin: -37px 0px 0px 155px;
+}
+.icons ul {
+    margin-top: -18px;
+    margin-right: 314px;
+    display: none;
+}
+.headtext{
+  text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 540px){
+.form {
+    margin-left: 8px;
+    margin-top: 50px;
+}
+.footerimg .span1 {
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+}
+.marginleftc {
+    margin-left: 0px;
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 360px){
+.texttss {
+    background-color: #069;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 50px;
+    height: 150px;
+    margin-top: 152px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 9px;
+}
+.h5, h5 {
+    font-size: 13px;
+}
+}
+
+
+@media screen and (max-width: 360px){
+ .col-sm-6{
+width: 600px;
+} 
+}
+
+
